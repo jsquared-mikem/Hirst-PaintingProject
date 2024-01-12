@@ -57,11 +57,14 @@ def next_row():
 
 
 starting()
+
+
 def painting(height):
     for _ in range(height):
         row_of_10()
         next_row()
         row_of_10()
+
 
 screen = Screen()
 screen.exitonclick()
